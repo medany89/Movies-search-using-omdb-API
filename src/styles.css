@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movie-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.movie-image-wrapper {
+  overflow: hidden;
+}
+
+.movie-image {
+  transition: transform 0.3s ease;
+  height: 425px;
+  object-fit: cover;
+}
+
+.movie-card:hover .movie-image {
+  transform: scale(1.1);
+}
+
+.movie-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.movie-year {
+  color: #888;
+}
