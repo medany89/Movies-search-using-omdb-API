@@ -5,9 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import { Row, Col } from "react-bootstrap";
 
 const App = () => {
@@ -67,15 +65,7 @@ const App = () => {
           ))}
         </Row>
       </Container>
-      {/* <div className="main-content">
-        {movies.map((movie) => (
-          <MovieCard
-            key={movie.imdbID}
-            movie={movie}
-            addToFavorites={addToFavorites}
-          />
-        ))}
-      </div> */}
+    
     </div>
   );
 };
